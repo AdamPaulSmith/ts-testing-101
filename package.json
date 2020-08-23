@@ -1,0 +1,27 @@
+{
+  "name": "ts-testing-101",
+  "version": "1.0.0",
+  "description": "A sample project that shows you how to get going with Node.js, Typescript and add use Jest as a testing framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamPaulSmith/ts-testing-101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamPaulSmith/ts-testing-101/issues"
+  },
+  "homepage": "https://github.com/AdamPaulSmith/ts-testing-101#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.6.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "typescript": "^4.0.2"
+  }
+}
