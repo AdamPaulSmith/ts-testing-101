@@ -18,7 +18,7 @@ This will create the node configuration file with default values. This is normal
 
 Once you have the project setup for node development, you need to tell it you want to use TypeScript. Execute the following command to download and install the baseline development dependencies:
 
-`npm i -D TypeScript @types/node`
+`npm i -D typeScript @types/node`
 
 This will install TypeScript and the types that allow you to write a node application.
 
@@ -94,7 +94,7 @@ The commands to get you going with a Node.js project that supports TypeScript us
 1. Open a Terminal/Command Line
 2. Navigate to the folder you want your solution to reside in
 3. Initialise npm: `npm init -y`
-4. Add all development dependencies: `npm i -D typescript jest ts-jest @node @typescript @Jest`
+4. Add all development dependencies: `npm i -D typescript jest ts-jest @node @typescript @jest`
 5. Initialise TypeScript: `npx tsc --init`
 6. Update TypeScript's config file for its source code and bin output folders. Open `tsconfig.json` and add the following 2 kvp's to the `compilerOptions` value object: 
     `"outDir": "./bin", "rootDir": "./src"`
