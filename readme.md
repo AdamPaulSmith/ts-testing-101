@@ -94,7 +94,7 @@ The commands to get you going with a Node.js project that supports TypeScript us
 1. Open a Terminal/Command Line
 2. Navigate to the folder you want your solution to reside in
 3. Initialise npm: `npm init -y`
-4. Add all development dependencies: `npm i -D typescript jest ts-jest @node @typescript @jest`
+4. Add all development dependencies: `npm i -D typescript jest ts-jest @types/node @types/typescript @types/jest`
 5. Initialise TypeScript: `npx tsc --init`
 6. Update TypeScript's config file for its source code and bin output folders. Open `tsconfig.json` and add the following 2 kvp's to the `compilerOptions` value object: 
     `"outDir": "./bin", "rootDir": "./src"`
