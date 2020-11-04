@@ -1,5 +1,5 @@
 # ts-testing-101
-This is a sample project that shows you how to get going with Node.js, TypeScript and add use Jest as a testing framework. For a TLDR jump to the bottom of this document which details the commands and steps without all the description text.
+This is a sample project that shows you how to get going with Node.js, TypeScript and use Jest as a testing framework. For a TLDR jump to the bottom of this document which details the commands and steps without all the description text.
 
 ## Environment Setup
 You will need node.js installed at a minimum to get this running. You can find the version of node you need [here](https://nodejs.org/) at Nodes official site.
