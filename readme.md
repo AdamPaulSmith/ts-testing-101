@@ -18,7 +18,7 @@ This will create the node configuration file with default values. This is normal
 
 Once you have the project setup for node development, you need to tell it you want to use TypeScript. Execute the following command to download and install the baseline development dependencies:
 
-`npm i -D typeScript @types/node`
+`npm i -D typescript @types/node`
 
 This will install TypeScript and the types that allow you to write a node application.
 
@@ -57,7 +57,7 @@ Before you use Jest, it is a good idea to set it up for the environment. Run the
 
 `npx ts-jest config:init`
 
-This will create a `jest.config.js` file. Note I am executing ts-Jest and not jest directly. If you initialise with the Jest command the solution will not be set up to execute TypeScript test files and will only execute .js files which we should not be writing as we are using TypeScript.
+This will create a `jest.config.js` file. Note I am executing ts-jest and not jest directly. If you initialise with the jest command the solution will not be set up to execute TypeScript test files and will only execute .js files which we should not be writing as we are using TypeScript.
 
 ## Naming your test files
 
